@@ -98,3 +98,18 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 > 22:17 <•pete> And oh look, also signed by the Guardian and a bunch of other news media who received that particular image
 
 > 22:17 <•pete> A jpeg suddenly has an evidence chain
+
+...
+
+> 22:22 <•perigrin> I wonder though why stop at media other than they're discrete and can be easily checksummed? Why not just create a generic block chain for information ... a snopes or wikipedia with a blockchain backing it for auditing purposes?
+
+> 22:31 <•pete> perigrin: I think fundamentally we've always considered word of mouth to be untrustworthy
+
+> 22:32 <•pete> And now there's the internet, the written word is far more suspect than it was when something had to be physically printed
+
+> 22:32 <•pete> But we've had several hundred years to get used to that now
+
+> 22:32 <•pete> Where the technology to create convincing fake multimedia is new and developing very quickly
+
+> 22:32 <•pete> So I think there are inherently different trust levels there
+

@@ -29,6 +29,7 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 
 * It'd be useful to have a mechanism whereby derivative portions of media can be certified deterministically -- eg: if you have the certification id for an image, it should be easy for a non-trusted user to generate an id that still works for 30 specific seconds of that media
 
+* As @Tynan points out, I forgot to mention that this sounds a lot like a good application for a distributed blockchain of some type
 
-
+* If you're signing something cryptographically, keys will get lost and stolen. Someway to revoke keys is needed, but also some kind of trust authority to say "this keypair really does belong to Library of Congress"
 

@@ -33,3 +33,4 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 
 * If you're signing something cryptographically, keys will get lost and stolen. Someway to revoke keys is needed, but also some kind of trust authority to say "this keypair really does belong to Library of Congress"
 
+* @RobP points out that this is distinct from copyright; copyright assigns ownership and credit. If a newsorg sends you out to take a photo, you certify your photo AND the newsorg certifies the photo AND perhaps the newsorg's ownership trust signs it, and so on. News organizations become not just a general record of events, they become ceritifiers of the authenticity of an event, which gives them power

@@ -43,6 +43,8 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 
 * Wikisource / Wikimedia Commons maintains (currently) pretty credible provenance and authenticity data for a lot of assets. 
 
+* What about text and facts, as per perigrin on IRC? Texts of speeches or official announcements are absolutely fair game, I think. Unemployment figures released by a government body can absolutely be certified. But a fact in terms of "unemployment has gone down", much less so, because that's an interpretation. But again, a politician releasing a statement *saying* that -- it's unambiguous that they released that statement, so that's fair game for certifying.
+
 ## @devulrandom speaks:
 
 > Especially when it comes to video where by necessity it’s chopped/cropped/etc and thus it does legitimately change due to various visual & audio treatments, even something as simple as volume leveling.

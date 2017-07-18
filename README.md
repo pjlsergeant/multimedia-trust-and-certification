@@ -29,8 +29,16 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 
 * It'd be useful to have a mechanism whereby derivative portions of media can be certified deterministically -- eg: if you have the certification id for an image, it should be easy for a non-trusted user to generate an id that still works for 30 specific seconds of that media
 
-* As @Tynan points out, I forgot to mention that this sounds a lot like a good application for a distributed blockchain of some type
+* As @Tynan points out, I forgot to mention that this sounds a lot like a good application for a distributed blockchain of some type. Ideally you should be able to download the whole ledger, but hosted versions are also available as per bitcoin.
 
-* If you're signing something cryptographically, keys will get lost and stolen. Someway to revoke keys is needed, but also some kind of trust authority to say "this keypair really does belong to Library of Congress"
+* If you're signing something cryptographically, keys will get lost and stolen. Someway to revoke keys is needed, but also some kind of trust authority to say "this keypair really does belong to Library of Congress". To what degree could current TLS keypairs be re-used at least initially?
+
+* That a [given image on the NYtimes website](https://static01.nyt.com/images/2017/07/13/sports/00mountain2/00mountain2-superJumbo.jpg) is hosted with an EV certificate already suggests a fair amount of trust in the image, albeit without any embedded meta-data or caption. This could be a good bootstrapping method, althought the lack of captioning is already problematic. Consider [this well-known doctored image](https://static01.nyt.com/images/2008/07/10/world/ledemissiles1.jpg) ([see this article](https://static01.nyt.com/images/2008/07/10/world/ledemissiles1.jpg)). That it's served by the NYTimes webservers currently only says it's newsworthy, not that it's an authentic depiction of events.
 
 * @RobP points out that this is distinct from copyright; copyright assigns ownership and credit. If a newsorg sends you out to take a photo, you certify your photo AND the newsorg certifies the photo AND perhaps the newsorg's ownership trust signs it, and so on. News organizations become not just a general record of events, they become ceritifiers of the authenticity of an event, which gives them power
+
+* Does it cost anything to add to the chain? How does that work? Who pays? What motivates them to pay? What's the return on investment?
+
+* Wikisource / Wikimedia Commons maintains (currently) pretty credible provenance and authenticity data for a lot of assets. 
+
+

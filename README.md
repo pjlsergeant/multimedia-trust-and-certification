@@ -41,4 +41,16 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 
 * Wikisource / Wikimedia Commons maintains (currently) pretty credible provenance and authenticity data for a lot of assets. 
 
+## @devulrandom speaks:
 
+> Especially when it comes to video where by necessity it’s chopped/cropped/etc and thus it does legitimately change due to various visual & audio treatments, even something as simple as volume leveling.
+
+> - Keyframe signing for video?
+
+> - Chain of trust - Does the editing/raw-importing software from the individual photog/cameraguy sign it, and it’s then endorsed up the chain of trust in the organization as it moves around? e.g should organizations be saying “we” produced this, don’t worry about how, or is it John Smith, personally reputable photographer, says he took this photo, and his parent org also certifies it, but he’s putting his personal reputation on the line as well as the org. Thinking about situations where state security services may direct an organization to produce certain media and certify it as genuine
+
+> - Reputational insight - does each piece of work stand on its own, or is there a trust metric derived from how often assets are used/verified by others? (i.e a bastardization of pagerank)
+
+> - Cross-certification. If NYT takes a video of a building being bombed, and CNN also takes a video independently, do their cameramen certify each others distinct copies, sort of like witnesses who are testifying the content is correct.
+
+> I realize I’ve veered a bit here into authenticity vs provenance, but saying something is “definitely from CNN” by itself isn’t enough, there needs to be a way to say it’s “definitely from CNN, and this 4 second clip of trump punching a baby is certified digitally as true by the cameraman who shot it, the boom guy who got the audio, the runner on site, and the visual effects person who took the original and performed the standard CNN color adjustment/crop/stabilization treatments on it”

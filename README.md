@@ -60,22 +60,41 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 ## On Wikileaks images, for example, via perigirin
 
 > 22:06 <•perigrin> One other issue that I see that hasn't been mentioned is the need to verify provenance but maintain anonymity
+
 > 22:07 <•perigrin> "this picture is accurate but telling you I took it will cause me to go to jail|the gallows"
+
 > 22:12 <•pete> I think that has its place but is not directly the problem this is trying to solve
+
 > 22:12 <•pete> What if WikiLeaks signs it?
+
 > 22:12 <•pete> You're not trying to show ownership
+
 > 22:12 <•pete> You're asking several people to show trust
+
 > 22:13 <•pete> Anonymous signing is basically pointless as an anonymous signer has no trust in the system
+
 > 22:13 <•perigrin> that's rather my point
+
 > 22:14 <•perigrin> some of the most important pictures are the ones that won't be signed ... the videos that Chelsea Manning released
+
 > 22:14 <•perigrin> for example.
+
 > 22:14 <•pete> But that's good because we shouldn't trust random images that show up
+
 > 22:14 <•pete> HOWEVER
+
 > 22:14 <•pete> WikiLeaks saying "We think this is authentic" is huge
+
 > 22:15 <•perigrin> I'm not so sure it is anymore but how is that any different than Wikileaks *just posting* that image?
+
 > 22:16 <•pete> That's discussed -- images being served by an organisation under an EV cert already have some trust
+
 > 22:16 <•pete> But the problem being solved here is:
+
 > 22:16 <•pete> Someone on Facebook says "this image is in the 200gb trove of WikiLeaks images"
+
 > 22:17 <•pete> And you saying "What's its certification ID?"
+
 > 22:17 <•pete> And oh look, also signed by the Guardian and a bunch of other news media who received that particular image
+
 > 22:17 <•pete> A jpeg suddenly has an evidence chain

@@ -13,6 +13,8 @@ Some form of certifying and then authenticating multimedia would be helpful.
 
 A photographer can already create a digital signature for their work using public/private keys. However, there's no central repository for these signatures, and no infrastructure for verifying them. Further, the general public is unlikely to recognize the names of individual photographers -- it would be useful to have a web of trust where provenance of media can be recorded, and where institutional certifiers of multimedia can also signal their trust in the multimedia. If a newspaper publishes an image, or a speech, they're (usually) signalling that they believe it to be authentic. This information may well be useful to a consumer of the media trying to find out more about it.
 
+[Obama lip-sync video from SIGRAPH](https://www.youtube.com/watch?v=9Yq67CjDqvw)
+
 # ... and the rest
 
 Follows a brain dump that will hopefully coalesce into something more substantial with time...

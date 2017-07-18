@@ -16,3 +16,17 @@ A photographer can already create a digital signature for their work using publi
 # ... and the rest
 
 Follows a brain dump that will hopefully coalesce into something more substantial with time...
+
+* Media will need a description of the media. The NYT publishing a photo of missiles that they believe has been doctored will want to authenticate not that the image is a true depiction of what happened, but that it's an image they've received from a state news source
+
+* Cryptographically signing media will work reasonably well for small media, say photos, but for larger items - an hour-long video of a speech - some kind of fingerprinting may be needed. This doesn't feel like it should form part of any specification, it feels like the system should be flexible to allow the certifier to choose the form of the certification. Should a certification of an image work for the same image with a slightly different colour cast? Perhaps, perhaps not
+
+* It would be useful for this to be decentralized
+
+* Much as papers can be cited, it'd be useful to have an alphanumeric ID to use as the certification handle for some media; when presented with multimedia, it'd be useful to ask for an ID that the certification process has created
+
+* It'd be useful to have a mechanism whereby derivative portions of media can be certified deterministically -- eg: if you have the certification id for an image, it should be easy for a non-trusted user to generate an id that still works for 30 specific seconds of that media
+
+
+
+

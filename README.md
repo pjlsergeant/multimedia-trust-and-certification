@@ -1,6 +1,8 @@
 
 This repository exists as a place for me to collect some thoughts I've been having recently on the certification of the authenticity of media.
 
+If I don't know you and you have thoughts or comments, do feel free to open a pull request or issue or something. This vaguely feels like the start of a PhD proposal.
+
 # Abstract
 
 Various neural network technologies appear to be able to already generate convincing images, audio, and video of events that didn't happen, or happened differently to their portrayl in that video. Soon that generated multimedia will become very difficult to distinguish from authentic recordings.

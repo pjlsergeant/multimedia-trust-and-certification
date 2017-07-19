@@ -11,7 +11,7 @@ This changes the mental paradigm that possession of multimedia purporting to sho
 
 Generation of fake multimedia already exists today, but its generation involves a lot of time and work, so authentic media occurs far more regularly than faked media. The work needed to generate this media is likely to diminish significantly in the next few years.
 
-Some form of certifying and then authenticating multimedia would be helpful.
+Some form of certifying and then authenticating multimedia would be helpful, and a blockchain-based solution is probably suitable.
 
 A photographer can already create a digital signature for their work using public/private keys. However, there's no central repository for these signatures, and no infrastructure for verifying them. Further, the general public is unlikely to recognize the names of individual photographers -- it would be useful to have a web of trust where provenance of media can be recorded, and where institutional certifiers of multimedia can also signal their trust in the multimedia. If a newspaper publishes an image, or a speech, they're (usually) signalling that they believe it to be authentic. This information may well be useful to a consumer of the media trying to find out more about it.
 
@@ -56,6 +56,8 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 > - Reputational insight - does each piece of work stand on its own, or is there a trust metric derived from how often assets are used/verified by others? (i.e a bastardization of pagerank)
 
 > - Cross-certification. If NYT takes a video of a building being bombed, and CNN also takes a video independently, do their cameramen certify each others distinct copies, sort of like witnesses who are testifying the content is correct.
+
+@pjlsergeant says: this is interesting. I think the answer is probably no. There's a split here between data provenance, and data trust. The cameraman or their device certifying the image, and what they say it is is one thing, as are "votes of trust" by the commissioning (or purchasing) newsorg. But it should also be possible for an anonymous document to be certified as trusted, as per WikiLeaks, who don't produce content, they just (claim to) verify it. NGOs research and verify reports. I think a journalist who's sourced a piece of media may also want to sign it. One would hope that if you have two non-identical videos, one certified by CNN and one certified by FoxNews, of the same event, the meta-data that they certified with the multimedia (where it is, what it represents, when it occured) one would be able to then easily find the other piece of media, watch it from the other angle, while seeing that the two angles have been independently certified
 
 > I realize I’ve veered a bit here into authenticity vs provenance, but saying something is “definitely from CNN” by itself isn’t enough, there needs to be a way to say it’s “definitely from CNN, and this 4 second clip of trump punching a baby is certified digitally as true by the cameraman who shot it, the boom guy who got the audio, the runner on site, and the visual effects person who took the original and performed the standard CNN color adjustment/crop/stabilization treatments on it”
 

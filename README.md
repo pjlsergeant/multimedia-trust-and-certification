@@ -25,6 +25,16 @@ Follows a brain dump that will hopefully coalesce into something more substantia
 
 * Cryptographically signing media will work reasonably well for small media, say photos, but for larger items - an hour-long video of a speech - some kind of fingerprinting may be needed. This doesn't feel like it should form part of any specification, it feels like the system should be flexible to allow the certifier to choose the form of the certification. Should a certification of an image work for the same image with a slightly different colour cast? Perhaps, perhaps not ... (@AdamL points out that darkening or lightening skin colour could well be a particular example of subverting it if allowed)
 
+* Some new thoughts:
+
+> One key insight here is that the system isn't meant to verify the integrity of a given set of bytes -- we already have cryptographic digests for that. It's also not intended to verify any form of *ownership* for the media; cryptographic digests can be signed already.
+
+> Instead, it exists to facilitate retrieval of meta-data about multimedia. Below I cover legitimate reasons for the NYTimes to publish known doctored and faked images. The important functionality is not that the NYTimes can verify that you have an authentic copy of an image they published, it's that they can verify their *description* and *understanding* of both the image, and its provenance. It's that they can certify they believe the source of the image, and what it represents -- where it was taken, when it was taken, what it appears to show, and who the believed author is.
+
+> Similarly any fingerprinting of that image is not to show that you necessarily have a perfectly exact copy of it. It's to allow bidirectional mapping between the image and its meta-data, and ideally other copies that have been certified -- even if they're subtly different. If a newsorg has published a pool photo that has been altered to show someone's skintone subtly altered, the utility is in being able to easily find that many other newsorgs have published the same image unaltered, and to find the actual original.
+
+> In some ways then, you have a system that's a bit like Google Image search (and presumably they'll add video search at some point), only decentralized, and with stronger identification of trustworthy sources. Currently, given a suspicious image, I can upload it to Google Image search and see where it's been published, and get a good idea as well of if the copy I have has been altered. However, I'm relying on a centralized service that doesn't attempt to certify results at all; a publisher has no recourse if Google decide not to index their media, and I may struggle to determine if an image is authentic if it only shows up on sources I don't immediately recognize.
+
 * It would be useful for this to be decentralized
 
 * Much as papers can be cited, it'd be useful to have an alphanumeric ID to use as the certification handle for some media; when presented with multimedia, it'd be useful to ask for an ID that the certification process has created

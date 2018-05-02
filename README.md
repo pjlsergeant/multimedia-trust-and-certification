@@ -1,21 +1,19 @@
 
-This repository exists as a place for me to collect some thoughts I've been having recently on the certification of the authenticity of media.
-
-If I don't know you and you have thoughts or comments, do feel free to open a pull request or issue or something. This vaguely feels like the start of a PhD proposal.
-
 # Abstract
 
-Various neural network technologies appear to be able to already generate convincing images, audio, and video of events that didn't happen, or happened differently to their portrayal in that video. Soon that generated multimedia will become very difficult to distinguish from authentic recordings.
+Various neural network technologies appear to be able to already generate convincing images, audio, and video of events that didn't happen, or happened differently to their portrayal in that video. Soon that generated multimedia will become very difficult to distinguish from authentic recordings. This changes the mental paradigm that possession of multimedia purporting to show an event means that event most likely occured -- seeing will no longer be believing.
 
-This changes the mental paradigm that possession of multimedia purporting to show an event means that event most likely occured -- seeing will no longer be believing.
+Generation of fake multimedia already exists today, but its generation involves a lot of time and work, so authentic media occurs far more regularly than faked media. The work needed to generate this media is likely to diminish significantly in the next few years. Some form of certifying and then authenticating multimedia would be helpful, and a blockchain-based solution is probably suitable. This is increasingly a well-recognized problem: [Y Combinator's RFS](https://www.ycombinator.com/rfs/#safeguards) asks for startup ideas for safeguarding against fake video, and the problem is starting [to get mainstream media coverage](http://www.latimes.com/business/technology/la-fi-tn-fake-videos-20180219-story.html).
 
-Generation of fake multimedia already exists today, but its generation involves a lot of time and work, so authentic media occurs far more regularly than faked media. The work needed to generate this media is likely to diminish significantly in the next few years.
-
-Some form of certifying and then authenticating multimedia would be helpful, and a blockchain-based solution is probably suitable.
-
+Beyond simply detecting digitally altered or created media, an underserved angle is mis-labelling of media: a video of South Asians burning an American flag labelled as a street protest in Karachi is a rather different piece of media than the identical video labelled as post 9-11 celebration in Brooklyn, even if no media alteration (other than cropping) has occured.
+ 
 A photographer can already create a digital signature for their work using public/private keys. However, there's no central repository for these signatures, and no infrastructure for verifying them. Further, the general public is unlikely to recognize the names of individual photographers -- it would be useful to have a web of trust where provenance of media can be recorded, and where institutional certifiers of multimedia can also signal their trust in the multimedia. If a newspaper publishes an image, or a speech, they're (usually) signalling that they believe it to be authentic. This information may well be useful to a consumer of the media trying to find out more about it.
 
-[Obama lip-sync video from SIGRAPH](https://www.youtube.com/watch?v=9Yq67CjDqvw)
+A Snopes-esque service allowing people to track the provenance and pedigree of the media they find online may be useful.
+
+# What this document is
+
+Below are some free-form thoughts by myself and some friends on this problem. It started work in the Summer of '17 as thoughts that might become a PhD proposal before I remembered I already had two jobs. Occasionally I may try and rewrite portions of this to make it less of a stream of consciousness.
 
 # ... and the rest
 
